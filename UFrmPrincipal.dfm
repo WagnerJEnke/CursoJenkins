@@ -1,0 +1,60 @@
+object FrmGerarSenha: TFrmGerarSenha
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Gerador Senha Viasoft'
+  ClientHeight = 111
+  ClientWidth = 326
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object edtSenha: TEdit
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 320
+    Height = 47
+    Align = alTop
+    Alignment = taCenter
+    Color = clInfoBk
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+    Text = 'edtSenha'
+    ExplicitLeft = -2
+  end
+  object btnGerar: TButton
+    AlignWithMargins = True
+    Left = 3
+    Top = 56
+    Width = 320
+    Height = 52
+    Align = alTop
+    Caption = 'Gerar Senha'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnGerarClick
+    ExplicitLeft = 0
+    ExplicitTop = 53
+    ExplicitWidth = 326
+  end
+end
